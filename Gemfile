@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 
-gem 'rails', '4.1.6'
+gem 'rails', '4.1.7'
 gem 'protected_attributes' # for 4.x
 
 gem 'rack'
@@ -27,7 +27,7 @@ group :development, :test, :production do
 end
 
 group :development, :test do
-  gem "rspec-rails", '2.99.0'
+  gem 'rspec-rails', '2.99.0'
 end
 
 group :development do
