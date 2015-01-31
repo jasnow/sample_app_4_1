@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 
-gem 'rails', '4.1.9.rc1'
+gem 'rails', '4.1.9'
 gem 'protected_attributes' # for 4.x
 
 gem 'rack'
@@ -41,7 +41,7 @@ group :development do
   # See Railscast #402 for more info.
   gem 'better_errors' 
   gem 'binding_of_caller'
-  gem 'dawn', :require => false
+  gem 'dawnscanner', :require => false
 end
 
 gem 'holepicker'
