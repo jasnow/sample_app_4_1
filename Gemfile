@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rake'
-
-gem 'rails', '4.1.10.rc2'
+gem 'rails', '4.1.10.rc3'
 gem 'protected_attributes' # for 4.x
+
+gem 'rake'
 
 gem 'rack'
 
