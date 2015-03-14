@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.10.rc3'
+gem 'rails', '4.1.10.rc4'
+gem 'ffi', '1.9.6'
 gem 'protected_attributes' # for 4.x
 
 gem 'rake'
