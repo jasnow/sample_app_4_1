@@ -1,39 +1,19 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.10.rc4'
-gem 'ffi', '1.9.6'
 gem 'protected_attributes' # for 4.x
 
 gem 'rake'
-
 gem 'rack'
-
 gem 'gravatar_image_tag'
-
 gem 'will_paginate'
-
-# Asset template engines
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
-
 gem 'jquery-rails'
-
 gem 'nokogiri'
-
 gem 'json'
-
-group :development, :test do
-  gem 'sqlite3'
-end
-
-group :production do
-  gem 'pg'
-end
-
-group :development, :test do
-  gem 'rspec-rails', '2.99.0'
-end
+gem 'holepicker'
 
 group :development do
   gem 'annotate'
@@ -45,7 +25,10 @@ group :development do
   gem 'dawnscanner', :require => false
 end
 
-gem 'holepicker'
+group :development, :test do
+  gem 'sqlite3'
+  gem 'rspec-rails', '2.99.0'
+end
 
 group :test do
   gem 'spork-rails'
@@ -58,3 +41,6 @@ group :test do
   gem 'turn', :require => false
 end
 
+group :production do
+  gem 'pg'
+end
