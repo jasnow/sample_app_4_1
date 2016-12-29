@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.16'
 gem 'protected_attributes' # for 4.x
-gem 'rainbow', git: 'https://github.com/sickill/rainbow' # WORKAROUND/TEMP - LOCKED DOWN
 
 gem 'rake'
 gem 'rack'
