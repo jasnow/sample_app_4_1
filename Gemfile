@@ -29,6 +29,7 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.99.0'
+  gem 'rubocop-rspec'
 end
 
 group :test do
