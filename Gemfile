@@ -4,7 +4,6 @@ gem 'rails', '4.1.16'
 gem 'protected_attributes' # for 4.x
 
 gem 'rake'
-gem 'rack'
 gem 'gravatar_image_tag'
 gem 'will_paginate'
 gem 'sass'

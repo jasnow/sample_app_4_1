@@ -228,7 +228,6 @@ DEPENDENCIES
   overcommit
   pg
   protected_attributes
-  rack
   rails (= 4.1.16)
   rake
   rspec-rails (= 2.99.0)
