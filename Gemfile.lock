@@ -137,9 +137,6 @@ GEM
     rainbow (2.2.2)
       rake
     rake (12.3.3)
-    rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
-      ffi (~> 1.0)
     rspec-collection_matchers (1.1.3)
       rspec-expectations (>= 2.99.0.beta1)
     rspec-core (2.99.2)
@@ -167,11 +164,9 @@ GEM
     ruby-progressbar (1.10.1)
     ruby_parser (3.13.1)
       sexp_processor (~> 4.9)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
     sexp_processor (4.12.1)
     spork (1.0.0rc4)
     spork-rails (4.0.0)
@@ -232,7 +227,7 @@ DEPENDENCIES
   rake
   rspec-rails (= 2.99.0)
   rubocop-rspec
-  sass
+  sassc
   spork-rails
   sqlite3 (= 1.3.13)
   turn
